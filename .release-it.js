@@ -6,4 +6,7 @@ module.exports = {
   npm: {
     publish: false,
   },
+  github: {
+    release: true,
+  },
 };
