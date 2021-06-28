@@ -8,11 +8,11 @@ This lib can generate unique numbers for big ranges. It's very simple in usage, 
 
 npm:
 ```sh
-npm install @ts-pro/unique-number-generator
+npm install @ts-pro/unique-random-number
 ```
 yarn:
 ```sh
-yarn add @ts-pro/unique-number-generator
+yarn add @ts-pro/unique-random-number
 ```
 
 ## Usage
