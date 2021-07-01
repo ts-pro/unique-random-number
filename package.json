@@ -1,6 +1,6 @@
 {
   "name": "@ts-pro/unique-random-number",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast & simple unique random numbers generator",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
