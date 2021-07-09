@@ -37,7 +37,7 @@ console.log(unique.get()); // Will print 0 or 1 or 2
 console.log(unique.get()); // Will print undefined which means that we have riched the end
 ```
 
-We can work with iterators ( this loop will end when it riches last number, you don't have to write any conditions ):
+You can work with iterators ( this loop will end when it riches last number, you don't have to write any conditions ):
 ```js
 import { UniqueRandomNumber } from 'unique-random-number';
 const unique = new UniqueRandomNumber(0, 100);
@@ -45,6 +45,14 @@ const unique = new UniqueRandomNumber(0, 100);
 for(let n of unique) {
   console.log(n); // Will print numbers between 0 ... 100
 }
+```
+
+You can use random number inside strings ( from v1.0.4 ):
+```js
+import { UniqueRandomNumber } from 'unique-random-number';
+const unique = new UniqueRandomNumber();
+
+console.log(`Unique random number: ${unique}`); // Will print specified string with unique random number inside
 ```
 
 ## License

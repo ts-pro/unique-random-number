@@ -40,6 +40,12 @@ class UniqueRandomNumber {
     return randomNumber;
   }
 
+  toString() {
+    var _this$get$toString, _this$get;
+
+    return (_this$get$toString = (_this$get = this.get()) === null || _this$get === void 0 ? void 0 : _this$get.toString()) !== null && _this$get$toString !== void 0 ? _this$get$toString : '';
+  }
+
   [_Symbol$iterator]() {
     return {
       next: () => {

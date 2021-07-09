@@ -29,6 +29,10 @@ export class UniqueRandomNumber {
     return randomNumber;
   }
 
+  toString(): string {
+    return this.get()?.toString() ?? '';
+  }
+
   [Symbol.iterator](): Iterator<number | undefined> {
     return {
       next: () => {

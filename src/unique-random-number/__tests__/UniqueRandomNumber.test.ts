@@ -77,3 +77,12 @@ it('Can generate just one number', () => {
   expect(urn.get()).toBe(10);
   expect(urn.get()).toBeUndefined();
 });
+
+it('Can work with strings', () => {
+  const urn = new UniqueRandomNumber(-1, 1);
+
+  expect(['num-1', 'num0', 'num1']).toContain(`num${urn}`);
+  expect(['num-1', 'num0', 'num1']).toContain(`num${urn}`);
+  expect(['num-1', 'num0', 'num1']).toContain(`num${urn}`);
+  expect(`${urn}`).toBe('');
+});

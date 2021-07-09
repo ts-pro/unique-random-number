@@ -4,5 +4,6 @@ export declare class UniqueRandomNumber {
     private range;
     constructor(from?: number, to?: number);
     get(): number | undefined;
+    toString(): string;
     [Symbol.iterator](): Iterator<number | undefined>;
 }
