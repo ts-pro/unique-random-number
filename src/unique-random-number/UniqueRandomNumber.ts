@@ -1,8 +1,6 @@
 export class UniqueRandomNumber {
   private readonly from!: number;
-
   private readonly to!: number;
-
   private range!: number[][];
 
   constructor(from = 0, to = 1000) {

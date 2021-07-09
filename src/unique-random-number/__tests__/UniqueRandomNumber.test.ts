@@ -70,3 +70,10 @@ it('Can work with big ranges', () => {
   // This check doesn't matter, we call it to be sure that script can handle big range fast
   expect(a !== b && a !== c && b !== c).toBeTruthy();
 });
+
+it('Can generate just one number', () => {
+  const urn = new UniqueRandomNumber(10, 10);
+
+  expect(urn.get()).toBe(10);
+  expect(urn.get()).toBeUndefined();
+});

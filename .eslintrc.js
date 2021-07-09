@@ -66,5 +66,8 @@ module.exports = {
 
     // I like using named exports =)
     'import/prefer-default-export': 0,
+
+    // Lines between class members look ugly.
+    'lines-between-class-members': 0,
   },
 };
